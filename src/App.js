@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import DemoSection from './sections/DemoSection/DemoSection'
+import AlexSection from './sections/AlexSection/AlexSection'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <Header />
       <div className="content" style={{ marginTop: '56px' }}>
           <DemoSection />
-          <DemoSection />
+          <AlexSection />
           <DemoSection />
       </div>
     </div>
