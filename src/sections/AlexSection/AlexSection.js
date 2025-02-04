@@ -9,7 +9,7 @@ import "./AlexSection.css"
 
 export default function AlexSection() {
   return (
-    <div className="section">
+    <div className="alexSection">
       <h2>Alex's Section</h2> 
       <img src={(require("./IMG_9035.JPG"))} />
       <p>Hello my name is Alex</p>
