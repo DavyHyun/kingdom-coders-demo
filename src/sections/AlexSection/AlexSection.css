@@ -6,4 +6,5 @@
     justify-content: center;
     background: #f8f9fa;
     border-bottom: 1px solid #ddd;
+    flex-direction: column;
   }
