@@ -10,8 +10,8 @@ import "./RachelSection.css"
 export default function RachelSection() {
   return (
     <div className="section">
-      <h2>Sectionssss</h2>
-      <img className= "image" src={require('/Users/rachelhung/kingdom-coders-demo/src/sections/RachelSection/download.jpeg')}></img>
+      <h2>Rachel Sectionssss</h2>
+      <img className= "image" src={require('./download.jpeg')}></img>
       <p>02/03/25</p>
     </div>
   );
