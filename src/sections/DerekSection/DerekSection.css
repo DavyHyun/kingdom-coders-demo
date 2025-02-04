@@ -4,13 +4,82 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background: #84b978;
+  background: #d88f8f;
   border-bottom: 1px solid #ddd;
 }
 
+.box {
+	display: flex; 
+}
+
+.box .inner {
+	width: 400px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 4em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+  
+
+}
+
+.box .inner:first-child {
+	background-color: rgb(47, 103, 47);
+	color: rgb(10, 58, 10);
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+.box .inner:last-child {
+  background-color: rgb(100, 162, 100);
+  color: rgb(186, 223, 186);
+  transform-origin: left;
+  transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+	position: absolute;
+	animation: shift 5s linear infinite;
+}
+
+.box .inner:first-child span {
+	animation-delay: 2.1s;
+	left: -100%;
+}
 .pfp  {
   width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 200px;
+}
+
+.grow-and-rotate {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 200px;
+  position: relative;
+  z-index: 1;
+  animation: grow 5s linear infinite;
+  box-shadow: 4px 4px 4px 0px #000;  
+  right: 100px;
+}
+
+@keyframes shift {
+  from {
+    left: 120%
+  }
+  to {
+    left: -120%;
+  }
+}
+
+@keyframes grow {
+  33% {
+    transform: scale(1.5) rotate(10deg);
+  }
+  66% {
+    transform: scale(1.5) rotate(-10deg);
+  }
 }
