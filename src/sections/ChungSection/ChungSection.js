@@ -11,8 +11,8 @@ import christmas from "./P1010064.jpg"
 
 export default function ChungSection() {
   return (
-    <div className="section">
-      <h2>Chung</h2>
+    <div className="chungSection">
+      <h2>Christian's Section!</h2>
       <img className="pfp" src= {me} alt="handsome man" />
       <img className="christmas" src= {christmas} alt="me and my christmas gifts" />
     </div>
