@@ -11,8 +11,16 @@ import img from "./IMG_2228.JPG"
 export default function DerekSection() {
   return (
     <div className="derekSection">
-      <h2>Derek's Section</h2>
-      <img className = "pfp" src={img} alt="Derek" />
+      <div class="box">
+        <div class="inner">
+          <span>Derek's Section</span>
+        </div>
+        <div class="inner">
+          <span>Derek's Section</span>
+        </div>
+      </div>
+      {/* <img className = "pfp" src={img} alt="Derek" /> */}
+    <img src={img} className="grow-and-rotate"></img>
     </div>
   );
 }
