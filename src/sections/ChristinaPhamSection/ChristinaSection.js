@@ -12,6 +12,7 @@ export default function ChristinaSection() {
     <div className="section">
       <h2>ChristinaSection</h2>
       <img bunny="image" src={require("./Hanna Kim.jpg")} />
+      
       <h2> hi </h2>
     </div>
   );
