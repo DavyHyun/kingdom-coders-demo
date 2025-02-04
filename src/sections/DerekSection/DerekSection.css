@@ -1,0 +1,16 @@
+.derekSection {
+  height: 100vh;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #84b978;
+  border-bottom: 1px solid #ddd;
+}
+
+.pfp  {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 200px;
+}
