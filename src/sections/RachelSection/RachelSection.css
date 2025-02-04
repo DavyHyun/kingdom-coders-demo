@@ -1,0 +1,17 @@
+.section {
+  height: 100vh;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fbcdcd;
+  border-bottom: 1px solid #ddd;
+
+  flex-direction: column;
+}
+
+.image{
+  height: 30vh;
+  border-radius: 20px;
+  padding: 2px;
+}
