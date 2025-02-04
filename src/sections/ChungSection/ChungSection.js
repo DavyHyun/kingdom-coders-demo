@@ -15,6 +15,9 @@ export default function ChungSection() {
       <h2>Christian's Section!</h2>
       <img className="pfp" src= {me} alt="handsome man" />
       <img className="christmas" src= {christmas} alt="me and my christmas gifts" />
+      <p>
+        Hello everyone 😳
+      </p>
     </div>
   );
 }

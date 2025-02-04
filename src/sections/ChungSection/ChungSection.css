@@ -6,6 +6,7 @@
   justify-content: center;
   background: #d6bd72;
   border-bottom: 1px solid #ddd;
+  flex-direction: column;
 }
 
 .christmas {
