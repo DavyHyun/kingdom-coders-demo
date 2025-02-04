@@ -6,19 +6,19 @@ import ChungSection from './sections/ChungSection/ChungSection'
 import DerekSection from './sections/DerekSection/DerekSection'
 import ChloeSection from './sections/ChloeSection/ChloeSection';
 import CollinSection from './sections/CollinSection/ColinSection';
+import CharisSection from './sections/CharisSection/CharisSection'
 
 function App() {
   return (
     <div className="App">
       <Header />
       <div className="content" style={{ marginTop: '56px' }}>
-          <DemoSection />
+          <CollinSection />
           <AlexSection />
+          <CharisSection />
           <ChungSection />
           <DerekSection />
-          <CollinSection />
-          <DemoSection />
-          <DemoSection />
+          <ChloeSection />
       </div>
     </div>
   );
