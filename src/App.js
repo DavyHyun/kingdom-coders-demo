@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import DemoSection from './sections/DemoSection/DemoSection'
+import RachelSection from './sections/RachelSection/RachelSection'
 import AlexSection from './sections/AlexSection/AlexSection'
 import ChungSection from './sections/ChungSection/ChungSection'
 import DerekSection from './sections/DerekSection/DerekSection'
@@ -19,6 +20,7 @@ function App() {
           <ChungSection />
           <DerekSection />
           <ChloeSection />
+          <RachelSection />
       </div>
     </div>
   );
