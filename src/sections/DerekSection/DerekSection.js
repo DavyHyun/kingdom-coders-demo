@@ -10,7 +10,7 @@ import img from "./IMG_2228.JPG"
 
 export default function DerekSection() {
   return (
-    <div className="section">
+    <div className="derekSection">
       <h2>Derek's Section</h2>
       <img className = "pfp" src={img} alt="Derek" />
     </div>
