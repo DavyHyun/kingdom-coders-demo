@@ -1,0 +1,23 @@
+.section {
+  height: 100vh;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d6bd72;
+  border-bottom: 1px solid #ddd;
+}
+
+.christmas {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.pfp {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+}
