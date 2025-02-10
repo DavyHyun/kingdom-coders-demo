@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import DemoSection from './sections/DemoSection/DemoSection'
+import DemoSection2 from './sections/DemoSection2/DemoSection2'
 import ChristinaSection from './sections/ChristinaPhamSection/ChristinaSection'
 import RachelSection from './sections/RachelSection/RachelSection'
 import AlexSection from './sections/AlexSection/AlexSection'
@@ -15,7 +16,8 @@ function App() {
     <div className="App">
       <Header />
       <div className="content" style={{ marginTop: '56px' }}>
-         
+          <DemoSection />
+          <DemoSection2 />
           <CollinSection />
           <ChristinaSection />
           <AlexSection />
