@@ -16,11 +16,10 @@ function App() {
     <div className="App">
       <Header />
       <div className="content" style={{ marginTop: '56px' }}>
-          <CharisSection/>
           <CollinSection/>
           <DemoSection />
           <DemoSection2 />
-          <CollinSection />
+          <CharisSection/>
           <ChristinaSection />
           <AlexSection />
           <CharisSection />
