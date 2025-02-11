@@ -19,7 +19,6 @@ function App() {
           <CollinSection/>
           <DemoSection />
           <DemoSection2 />
-          <CharisSection/>
           <ChristinaSection />
           <AlexSection />
           <CharisSection />
