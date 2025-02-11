@@ -11,6 +11,7 @@ export default function DemoSection() {
   return (
     <div className="section">
       <h2>Section</h2>
+      <p>testing</p>
     </div>
   );
 }
